@@ -93,3 +93,20 @@ body {
     box-shadow: 0 0 20px var(--clr),
         0 0 60px var(--clr);
 }
+
+/* now, make it responsive*/
+@media (max-width: 991px) {
+    #time {
+        width: auto;
+        max-width: 350px;
+        display: inline;
+    }
+
+    .circle {
+        margin: 10px;
+    }
+
+    .ap {
+        text-indent: 160px;
+    }
+}
